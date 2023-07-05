@@ -1,0 +1,23 @@
+{
+  "name": "dart-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "module": "commonjs",
+  "scripts": {
+    "dev": "node src/app.js",
+    "gen-corpCodeXml": "node src/tasks/generate-corpCodeXml.js",
+    "start-auto-notify": "node src/tasks/notify-automatically.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "decompress": "^4.2.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-telegram-bot-api": "^0.61.0",
+    "xml2json": "^0.12.0"
+  }
+}
